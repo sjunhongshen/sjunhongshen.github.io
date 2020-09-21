@@ -5,7 +5,7 @@
     <link>https://sjunhongshen.github.io/publication-type/1/</link>
       <atom:link href="https://sjunhongshen.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sjunhongshen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
@@ -15,17 +15,17 @@
     <item>
       <title>Emergence of Pragmatics from Referential Game between Theory of Mind Agents</title>
       <link>https://sjunhongshen.github.io/publication/conference-paper/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://sjunhongshen.github.io/publication/conference-paper/</guid>
       <description>&lt;h3 id=&#34;pipeline&#34;&gt;Pipeline&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;pipeline_temporal.jpg&#34;
 alt=&#34;&#34;
-style=&#34;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
+style=&#34;width:400px; height:300px;float: left; margin-right: 10px;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;ToM Agents Interaction Pipeline. First, the teacher chooses a message according to the context and her prediction of the student&amp;rsquo;s reaction (&lt;span style=&#34;color: blue;&#34;&gt;blue&lt;/span&gt; arrows). After a message is sent, the student updates his belief and the teacher updates her estimation of student&amp;rsquo;s belief (&lt;span style=&#34;color: purple;&#34;&gt;purple&lt;/span&gt; and &lt;span style=&#34;color: orange;&#34;&gt;orange&lt;/span&gt; arrows). Then, the student either waits or selects a candidate (&lt;span style=&#34;color: red;&#34;&gt;red&lt;/span&gt; arrows). Only in the training phase, the actual student belief will be returned to the teacher (&lt;span style=&#34;color: gray;&#34;&gt;gray&lt;/span&gt; arrow). Bold arrows stand for the whole message space being passed.&lt;/p&gt;
 &lt;h3 id=&#34;3d-objects-referential-game-example&#34;&gt;3D Objects Referential Game Example&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;G4_example_bold.jpg&#34;
 alt=&#34;&#34;
-style=&#34;float: left; margin-right: 10px;&#34; /&gt;
+style=&#34;width:400px; height:300px;float: left; margin-right: 10px;&#34; /&gt;
 We show the message distribution for the target and student&amp;rsquo;s new belief after receiving the most probable message. As for the teacher&amp;rsquo;s message distribution for distractors, all probability weights concentrate on the unique identifiers after the first phase of training. Student&amp;rsquo;s belief illustrates that teacher&amp;rsquo;s most probable message, though consistent with multiple candidates, can successfully indicate the target with more confidence as training goes. In general, both agents&#39; behavior becomes more certain, and the certainty coordinates.&lt;/p&gt;
 </description>
     </item>
