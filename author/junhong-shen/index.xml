@@ -35,22 +35,18 @@
     </item>
     
     <item>
-      <title>An example journal article</title>
+      <title>Mathematical Reconstruction of Patient-Specific Vascular Networks Based on Clinical Images and Global Optimization</title>
       <link>https://sjunhongshen.github.io/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://sjunhongshen.github.io/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including 
-&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+&lt;p&gt;Cancer is a major cause of death worldwide and it becomes particularly threatening once it begins to metastasize. During metastasis, the cancerous cells of the primary tumor start to spread in the body and form secondary tumors. The blood vessels serve as pathways for this transportation and hence are crucial for understanding and monitoring cancer growth. Existing medical imaging modalities, such as computed tomography (CT) and magnetic resonance angiography (MRA), are able to provide 3-D contrast images of the vascular tissues, but the data acquired are often incomplete and lack essential details. A much-needed tool for studying blood vessels is one that could reconstruct patient-specific vascular network models based on incomplete data obtained from clinical images.&lt;/p&gt;
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+&lt;p&gt;To this end, we developed a computational framework that takes a medical image as input and reconstructs a complete, patient-specific vascular network model using a mathematical optimization procedure. Our framework extracts major vessel segments from the provided image and uses the organ geometry to select vessel termination points. Then, it generates the remainder vessels based on physiological optimality principles.&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;Using the framework, we generated a set of vascular network models with over 3000 terminal segments from a patient&amp;rsquo;s brain MRA scan. The resulted networks were validated in two ways: (1) We analyzed the distributions of the Strahler orders, vessel radii, and branch lengths of the vascular models. These morphometric properties match with actual human data. (2) We performed fluid dynamics simulation inside the reconstructed vessels and showed that the pressure and wall shear stress distributions agree with in vivo measurements in the existing literature.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion-and-significance&#34;&gt;Conclusion and significance&lt;/h3&gt;
+&lt;p&gt;The qualitative and quantitative agreements in morphometric and hemodynamic properties of the generated vasculatures demonstrate that the proposed framework is effective in reconstructing brain vascular network structures. It bridges the gap between image-based vessel models, which are limited by the resolution of the clinical images, and hypothetical models, which cannot be used in simulating blood flow and planning treatment for individual patients. This is an important step towards developing novel diagnostic as well as prognostic tools in cancer research.&lt;/p&gt;
 </description>
     </item>
     
