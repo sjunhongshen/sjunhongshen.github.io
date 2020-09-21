@@ -21,14 +21,14 @@
 &lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;pipeline_temporal.jpg&#34;
      alt=&#34;&#34;
-     style=&#34;width:80%; height:80% /&gt;
+     style=&#34;width:80%; height:80% &gt;
 &lt;/p&gt;
 &lt;p&gt;ToM Agents Interaction Pipeline. First, the teacher chooses a message according to the context and her prediction of the student&amp;rsquo;s reaction (&lt;span style=&#34;color: blue;&#34;&gt;blue&lt;/span&gt; arrows). After a message is sent, the student updates his belief and the teacher updates her estimation of student&amp;rsquo;s belief (&lt;span style=&#34;color: purple;&#34;&gt;purple&lt;/span&gt; and &lt;span style=&#34;color: orange;&#34;&gt;orange&lt;/span&gt; arrows). Then, the student either waits or selects a candidate (&lt;span style=&#34;color: red;&#34;&gt;red&lt;/span&gt; arrows). Only in the training phase, the actual student belief will be returned to the teacher (&lt;span style=&#34;color: gray;&#34;&gt;gray&lt;/span&gt; arrow). Bold arrows stand for the whole message space being passed.&lt;/p&gt;
 &lt;h3 id=&#34;3d-objects-referential-game-example&#34;&gt;3D Objects Referential Game Example&lt;/h3&gt;
 &lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;G4_example_bold.jpg&#34;
      alt=&#34;&#34;
-     style=&#34;width:80%; height:80% /&gt;
+     style=&#34;width:80%; height:80% &gt;
 &lt;/p&gt;
 We show the message distribution for the target and student&#39;s new belief after receiving the most probable message. As for the teacher&#39;s message distribution for distractors, all probability weights concentrate on the unique identifiers after the first phase of training. Student&#39;s belief illustrates that teacher&#39;s most probable message, though consistent with multiple candidates, can successfully indicate the target with more confidence as training goes. In general, both agents&#39; behavior becomes more certain, and the certainty coordinates.
 </description>
