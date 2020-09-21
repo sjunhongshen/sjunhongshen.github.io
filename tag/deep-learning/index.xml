@@ -5,7 +5,7 @@
     <link>https://sjunhongshen.github.io/tag/deep-learning/</link>
       <atom:link href="https://sjunhongshen.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sjunhongshen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Deep Learning</title>
@@ -13,15 +13,18 @@
     </image>
     
     <item>
-      <title>Internal Project</title>
+      <title>FRAME Model and Deep FRAME for Texture Analysis</title>
       <link>https://sjunhongshen.github.io/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://sjunhongshen.github.io/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;frame-model&#34;&gt;FRAME model&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling (&lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34;&gt;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Markov Random Fields provide us physical inspirations for modeling texture patterns. Filters, on the other hand, afford a powerful and a biologically plausible way of extracting features. Combining the two classes of texture models, we have the FRAME (Filters, Random field, and Maximum Entropy) model, which iteratively does filter selection and filter response matching through the Maximum Entropy Principle.&lt;/p&gt;
+&lt;h2 id=&#34;deeo-frame&#34;&gt;Deeo FRAME&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: A Theory of Generative ConvNet (&lt;a href=&#34;https://arxiv.org/abs/1602.03264)&#34;&gt;https://arxiv.org/abs/1602.03264)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Multi-layered hierarchical FRAME model (Deep FRAME) has a similar structure to the convolutional Neural Networks (CNN). In contrast to CNN, Deep FRAME is a generative model in the sense that (1) it extracts a representation that can reconstruct the input image; (2) it has an explicit dictionary for the basis/filters, which will be learned during training.&lt;/p&gt;
+&lt;p&gt;In comparison to the vanilla FRAME model, Deep FRAME has the following characteristics: (1) it tries to match statistics on the responses of neurons at 2-3 layers, not just 1 layer; (2) for simplicity, instead of matching the whole histogram of a neuron’s response, it only matches the expected response; and (3) instead of pursuing neurons from a hand-designed set (e.g. the Gabor filters), it learns the filters. The number of neurons in the new model may be excessive and thus this model is dense
+and not sparse. It depends on the design of the structure (how many layers, how many neurons, i.e. filters, at each layer). It is still unclear at this stage how we can design a good structure for different images in different entropy regimes.&lt;/p&gt;
 </description>
     </item>
     
