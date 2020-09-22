@@ -14,9 +14,9 @@
     
     <item>
       <title>Emergence of Pragmatics from Referential Game between Theory of Mind Agents</title>
-      <link>https://sjunhongshen.github.io/publication/conference-paper/</link>
+      <link>https://sjunhongshen.github.io/publication/referentialgame/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/publication/conference-paper/</guid>
+      <guid>https://sjunhongshen.github.io/publication/referentialgame/</guid>
       <description>&lt;h3 id=&#34;pipeline&#34;&gt;Pipeline&lt;/h3&gt;
 &lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;pipeline_temporal.jpg&#34;
@@ -59,9 +59,9 @@ and not sparse. It depends on the design of the structure (how many layers, how 
     
     <item>
       <title>Mathematical Reconstruction of Patient-Specific Vascular Networks Based on Clinical Images and Global Optimization</title>
-      <link>https://sjunhongshen.github.io/publication/journal-article/</link>
+      <link>https://sjunhongshen.github.io/publication/vascularnetwork/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/publication/journal-article/</guid>
+      <guid>https://sjunhongshen.github.io/publication/vascularnetwork/</guid>
       <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p&gt;Cancer is a major cause of death worldwide and it becomes particularly threatening once it begins to metastasize. During metastasis, the cancerous cells of the primary tumor start to spread in the body and form secondary tumors. The blood vessels serve as pathways for this transportation and hence are crucial for understanding and monitoring cancer growth. Existing medical imaging modalities, such as computed tomography (CT) and magnetic resonance angiography (MRA), are able to provide 3-D contrast images of the vascular tissues, but the data acquired are often incomplete and lack essential details. A much-needed tool for studying blood vessels is one that could reconstruct patient-specific vascular network models based on incomplete data obtained from clinical images.&lt;/p&gt;
 &lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
@@ -126,6 +126,7 @@ and not sparse. It depends on the design of the structure (how many layers, how 
       <guid>https://sjunhongshen.github.io/project/sensetime/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;With the rapid development of smartphone technologies nowadays, traditional ways to unlock the phone using a passcode, a pattern lock or fingerprints can no longer meet the emerging demand of larger and even full mobile phone screens. At the same time, smartphone users are anticipating a technology that allows them to unlock the phone within a second and without extra hand movements. Asa possible solution to the problem, facial recognition systems, which may unlock the phone after verifying the user’s facial identity, begin to take the place of the old passcode or fingerprints identification process. On one hand, Face ID makes larger screens possible because it does not require the home button or additional hardware to handle fingerprints recognition. On the other hand, it simplies the unlocking process since one only needs to pick up the phone and place his or her face in front of the screen to use the phone.&lt;/p&gt;
+&lt;h2 id=&#34;my-experience&#34;&gt;My Experience&lt;/h2&gt;
 &lt;p&gt;In the summer of 2018, I worked with the SenseTime Face ID team in Beijing to improve the Face ID software, which employs deep learning techniques in the facial detection and verification process. In particular, I followed the 3D structured light project and collaborated with the engineers in system improvements, bug fixing, and testing. In our project, the face unlock process is dissembled into the following procedures:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Face detection (key facial feature detection)&lt;/li&gt;

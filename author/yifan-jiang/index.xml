@@ -14,9 +14,9 @@
     
     <item>
       <title>Mathematical Reconstruction of Patient-Specific Vascular Networks Based on Clinical Images and Global Optimization</title>
-      <link>https://sjunhongshen.github.io/publication/journal-article/</link>
+      <link>https://sjunhongshen.github.io/publication/vascularnetwork/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/publication/journal-article/</guid>
+      <guid>https://sjunhongshen.github.io/publication/vascularnetwork/</guid>
       <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p&gt;Cancer is a major cause of death worldwide and it becomes particularly threatening once it begins to metastasize. During metastasis, the cancerous cells of the primary tumor start to spread in the body and form secondary tumors. The blood vessels serve as pathways for this transportation and hence are crucial for understanding and monitoring cancer growth. Existing medical imaging modalities, such as computed tomography (CT) and magnetic resonance angiography (MRA), are able to provide 3-D contrast images of the vascular tissues, but the data acquired are often incomplete and lack essential details. A much-needed tool for studying blood vessels is one that could reconstruct patient-specific vascular network models based on incomplete data obtained from clinical images.&lt;/p&gt;
 &lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
