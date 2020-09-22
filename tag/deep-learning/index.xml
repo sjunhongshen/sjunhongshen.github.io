@@ -14,9 +14,9 @@
     
     <item>
       <title>FRAME Model and Deep FRAME for Texture Synthesis</title>
-      <link>https://sjunhongshen.github.io/project/internal-project/</link>
+      <link>https://sjunhongshen.github.io/project/frame/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/project/internal-project/</guid>
+      <guid>https://sjunhongshen.github.io/project/frame/</guid>
       <description>&lt;h2 id=&#34;frame-model&#34;&gt;FRAME model&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: 
 &lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling&lt;/a&gt;&lt;/p&gt;
@@ -32,6 +32,37 @@
 &lt;p&gt;Multi-layered hierarchical FRAME model (Deep FRAME) has a similar structure to the convolutional Neural Networks (CNN). In contrast to CNN, Deep FRAME is a generative model in the sense that (1) it extracts a representation that can reconstruct the input image; (2) it has an explicit dictionary for the basis/filters, which will be learned during training.&lt;/p&gt;
 &lt;p&gt;In comparison to the vanilla FRAME model, Deep FRAME has the following characteristics: (1) it tries to match statistics on the responses of neurons at 2-3 layers, not just 1 layer; (2) for simplicity, instead of matching the whole histogram of a neuron’s response, it only matches the expected response; and (3) instead of pursuing neurons from a hand-designed set (e.g. the Gabor filters), it learns the filters. The number of neurons in the new model may be excessive and thus this model is dense
 and not sparse. It depends on the design of the structure (how many layers, how many neurons, i.e. filters, at each layer). It is still unclear at this stage how we can design a good structure for different images in different entropy regimes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unlock Your Phone with 3D Structured Light Face ID</title>
+      <link>https://sjunhongshen.github.io/project/sensetime/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://sjunhongshen.github.io/project/sensetime/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With the rapid development of smartphone technologies nowadays, traditional ways to unlock the phone using a passcode, a pattern lock or fingerprints can no longer meet the emerging demand of larger and even full mobile phone screens. At the same time, smartphone users are anticipating a technology that allows them to unlock the phone within a second and without extra hand movements. Asa possible solution to the problem, facial recognition systems, which may unlock the phone after verifying the user’s facial identity, begin to take the place of the old passcode or fingerprints identification process. On one hand, Face ID makes larger screens possible because it does not require the home button or additional hardware to handle fingerprints recognition. On the other hand, it simplies the unlocking process since one only needs to pick up the phone and place his or her face in front of the screen to use the phone.&lt;/p&gt;
+&lt;p&gt;In the summer of 2018, I worked with the SenseTime Face ID team in Beijing to improve the Face ID software, which employs deep learning techniques in the facial detection and verification process. In particular, I followed the 3D structured light project and collaborated with the engineers in system improvements, bug fixing, and testing. In our project, the face unlock process is dissembled into the following procedures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Face detection (key facial feature detection)&lt;/li&gt;
+&lt;li&gt;Quality check&lt;/li&gt;
+&lt;li&gt;Liveness check&lt;/li&gt;
+&lt;li&gt;Attention test&lt;/li&gt;
+&lt;li&gt;Feature extraction&lt;/li&gt;
+&lt;li&gt;Feature matching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;face-id-demo-app&#34;&gt;Face ID Demo App&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;Picture1.png&#34;
+     alt=&#34;&#34;
+     style=&#34;width:80%; height:80%&#34; /&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;Picture2.png&#34;
+     alt=&#34;&#34;
+     style=&#34;width:80%; height:80%&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;During my internship, our team built an android demo application that exemplifies how facial recognition can be used to unlock smartphones. In order to unlock the phone, users first register their faces in the app, and then go through the verification process. Our liveness detection and eye-open detection make attacks using photos or videos nearly impossible, thus increasing the security and reliability of unlocking the phone with one’s face.&lt;/p&gt;
 </description>
     </item>
     

@@ -36,9 +36,9 @@
     
     <item>
       <title>FRAME Model and Deep FRAME for Texture Synthesis</title>
-      <link>https://sjunhongshen.github.io/project/internal-project/</link>
+      <link>https://sjunhongshen.github.io/project/frame/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/project/internal-project/</guid>
+      <guid>https://sjunhongshen.github.io/project/frame/</guid>
       <description>&lt;h2 id=&#34;frame-model&#34;&gt;FRAME model&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: 
 &lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling&lt;/a&gt;&lt;/p&gt;
@@ -70,6 +70,83 @@ and not sparse. It depends on the design of the structure (how many layers, how 
 &lt;p&gt;Using the framework, we generated a set of vascular network models with over 3000 terminal segments from a patient&amp;rsquo;s brain MRA scan. The resulted networks were validated in two ways: (1) We analyzed the distributions of the Strahler orders, vessel radii, and branch lengths of the vascular models. These morphometric properties match with actual human data. (2) We performed fluid dynamics simulation inside the reconstructed vessels and showed that the pressure and wall shear stress distributions agree with in vivo measurements in the existing literature.&lt;/p&gt;
 &lt;h3 id=&#34;conclusion-and-significance&#34;&gt;Conclusion and significance&lt;/h3&gt;
 &lt;p&gt;The qualitative and quantitative agreements in morphometric and hemodynamic properties of the generated vasculatures demonstrate that the proposed framework is effective in reconstructing brain vascular network structures. It bridges the gap between image-based vessel models, which are limited by the resolution of the clinical images, and hypothetical models, which cannot be used in simulating blood flow and planning treatment for individual patients. This is an important step towards developing novel diagnostic as well as prognostic tools in cancer research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Micromouse: An Autonomous Maze-Solving Robot</title>
+      <link>https://sjunhongshen.github.io/project/micromouse/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://sjunhongshen.github.io/project/micromouse/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;A micromouse is a small autonomous maze-solving robot. When put inside a maze, it detects the walls and avoids hitting them, thereby navigating a route in the maze.&lt;/p&gt;
+&lt;p&gt;The micromouse&amp;rsquo;s movement is guided by improved PID control with IR sensors and the gyroscope, which determine the robot&amp;rsquo;s position, orientation and detect obstacles. It is powered by two DC motors, controlled throuh a H-bridge motor controller via a pulse-width modulated signal.&lt;/p&gt;
+&lt;p&gt;This multifaceted embedded systems project allows students to learn and apply knowledge in micro-controller programming, algorithm analysis, signal processing, feedback control, and circuit design, etc.&lt;/p&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware: body, motor, motor driver, sensors, wires and the controller.&lt;/li&gt;
+&lt;li&gt;Software: Arduino programming.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;roadmap&#34;&gt;Roadmap&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Robot body design&lt;/li&gt;
+&lt;li&gt;Print circuit board (PCB) design with Eagle&lt;/li&gt;
+&lt;li&gt;Wiring and soldering the sensors, motors,the motor driver, batteries, and wheels&lt;/li&gt;
+&lt;li&gt;Arduino Nano programming (PID controller implementation)&lt;/li&gt;
+&lt;li&gt;Testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;our-demo&#34;&gt;Our Demo&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;micromouse.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unlock Your Phone with 3D Structured Light Face ID</title>
+      <link>https://sjunhongshen.github.io/project/sensetime/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://sjunhongshen.github.io/project/sensetime/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;With the rapid development of smartphone technologies nowadays, traditional ways to unlock the phone using a passcode, a pattern lock or fingerprints can no longer meet the emerging demand of larger and even full mobile phone screens. At the same time, smartphone users are anticipating a technology that allows them to unlock the phone within a second and without extra hand movements. Asa possible solution to the problem, facial recognition systems, which may unlock the phone after verifying the user’s facial identity, begin to take the place of the old passcode or fingerprints identification process. On one hand, Face ID makes larger screens possible because it does not require the home button or additional hardware to handle fingerprints recognition. On the other hand, it simplies the unlocking process since one only needs to pick up the phone and place his or her face in front of the screen to use the phone.&lt;/p&gt;
+&lt;p&gt;In the summer of 2018, I worked with the SenseTime Face ID team in Beijing to improve the Face ID software, which employs deep learning techniques in the facial detection and verification process. In particular, I followed the 3D structured light project and collaborated with the engineers in system improvements, bug fixing, and testing. In our project, the face unlock process is dissembled into the following procedures:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Face detection (key facial feature detection)&lt;/li&gt;
+&lt;li&gt;Quality check&lt;/li&gt;
+&lt;li&gt;Liveness check&lt;/li&gt;
+&lt;li&gt;Attention test&lt;/li&gt;
+&lt;li&gt;Feature extraction&lt;/li&gt;
+&lt;li&gt;Feature matching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;face-id-demo-app&#34;&gt;Face ID Demo App&lt;/h2&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;Picture1.png&#34;
+     alt=&#34;&#34;
+     style=&#34;width:80%; height:80%&#34; /&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;Picture2.png&#34;
+     alt=&#34;&#34;
+     style=&#34;width:80%; height:80%&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;During my internship, our team built an android demo application that exemplifies how facial recognition can be used to unlock smartphones. In order to unlock the phone, users first register their faces in the app, and then go through the verification process. Our liveness detection and eye-open detection make attacks using photos or videos nearly impossible, thus increasing the security and reliability of unlocking the phone with one’s face.&lt;/p&gt;
 </description>
     </item>
     

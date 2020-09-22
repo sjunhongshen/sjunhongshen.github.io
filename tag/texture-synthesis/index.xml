@@ -14,9 +14,9 @@
     
     <item>
       <title>FRAME Model and Deep FRAME for Texture Synthesis</title>
-      <link>https://sjunhongshen.github.io/project/internal-project/</link>
+      <link>https://sjunhongshen.github.io/project/frame/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://sjunhongshen.github.io/project/internal-project/</guid>
+      <guid>https://sjunhongshen.github.io/project/frame/</guid>
       <description>&lt;h2 id=&#34;frame-model&#34;&gt;FRAME model&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: 
 &lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling&lt;/a&gt;&lt;/p&gt;
