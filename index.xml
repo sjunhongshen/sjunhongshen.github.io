@@ -148,6 +148,11 @@ and not sparse. It depends on the design of the structure (how many layers, how 
      style=&#34;width:80%; height:80%&#34; /&gt;
 &lt;/p&gt;
 &lt;p&gt;During my internship, our team built an android demo application that exemplifies how facial recognition can be used to unlock smartphones. In order to unlock the phone, users first register their faces in the app, and then go through the verification process. Our liveness detection and eye-open detection make attacks using photos or videos nearly impossible, thus increasing the security and reliability of unlocking the phone with one’s face.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;Picture3.png&#34;
+     alt=&#34;&#34;
+     style=&#34;width:60%; height:60%&#34; /&gt;
+&lt;/p&gt;
 </description>
     </item>
     
