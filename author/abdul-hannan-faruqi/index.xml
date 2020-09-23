@@ -17,7 +17,9 @@
       <link>https://sjunhongshen.github.io/publication/vascularnetwork/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://sjunhongshen.github.io/publication/vascularnetwork/</guid>
-      <description>&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
+      <description>&lt;p&gt;The presentation slide can be found 
+&lt;a href=&#34;https://drive.google.com/file/d/1avXWJDVLXO-B7Nklqduo317BcXtGq3HR/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p&gt;Cancer is a major cause of death worldwide and it becomes particularly threatening once it begins to metastasize. During metastasis, the cancerous cells of the primary tumor start to spread in the body and form secondary tumors. The blood vessels serve as pathways for this transportation and hence are crucial for understanding and monitoring cancer growth. Existing medical imaging modalities, such as computed tomography (CT) and magnetic resonance angiography (MRA), are able to provide 3-D contrast images of the vascular tissues, but the data acquired are often incomplete and lack essential details. A much-needed tool for studying blood vessels is one that could reconstruct patient-specific vascular network models based on incomplete data obtained from clinical images.&lt;/p&gt;
 &lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
 &lt;p&gt;To this end, we developed a computational framework that takes a medical image as input and reconstructs a complete, patient-specific vascular network model using a mathematical optimization procedure. Our framework extracts major vessel segments from the provided image and uses the organ geometry to select vessel termination points. Then, it generates the remainder vessels based on physiological optimality principles.&lt;/p&gt;
