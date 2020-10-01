@@ -5,7 +5,7 @@
     <link>https://sjunhongshen.github.io/tag/texture-synthesis/</link>
       <atom:link href="https://sjunhongshen.github.io/tag/texture-synthesis/index.xml" rel="self" type="application/rss+xml" />
     <description>Texture Synthesis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Junhong SHEN 2020</copyright><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sjunhongshen.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Texture Synthesis</title>
@@ -18,8 +18,7 @@
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://sjunhongshen.github.io/project/frame/</guid>
       <description>&lt;h2 id=&#34;frame-model&#34;&gt;FRAME model&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: 
-&lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: &lt;a href=&#34;http://www.stat.ucla.edu/~ywu/research/papers/ijcv.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Filters, Random Fields and Maximum Entropy (FRAME): Towards a Unified Theory for Texture Modeling&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Markov Random Fields provide us physical inspirations for modeling texture patterns. Filters, on the other hand, afford a powerful and a biologically plausible way of extracting features. Combining the two classes of texture models, we have the FRAME (Filters, Random field, and Maximum Entropy) model, which iteratively does filter selection and filter response matching through the Maximum Entropy Principle.&lt;/p&gt;
 &lt;h2 id=&#34;deep-frame&#34;&gt;Deep FRAME&lt;/h2&gt;
 &lt;p align=&#34;center&#34;&gt;
@@ -27,8 +26,7 @@
      alt=&#34;&#34;
      style=&#34;width:80%; height:80%&#34; /&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: 
-&lt;a href=&#34;https://arxiv.org/abs/1602.03264&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Theory of Generative ConvNet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Original paper&lt;/strong&gt;: &lt;a href=&#34;https://arxiv.org/abs/1602.03264&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Theory of Generative ConvNet&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Multi-layered hierarchical FRAME model (Deep FRAME) has a similar structure to the convolutional Neural Networks (CNN). In contrast to CNN, Deep FRAME is a generative model in the sense that (1) it extracts a representation that can reconstruct the input image; (2) it has an explicit dictionary for the basis/filters, which will be learned during training.&lt;/p&gt;
 &lt;p&gt;In comparison to the vanilla FRAME model, Deep FRAME has the following characteristics: (1) it tries to match statistics on the responses of neurons at 2-3 layers, not just 1 layer; (2) for simplicity, instead of matching the whole histogram of a neuron’s response, it only matches the expected response; and (3) instead of pursuing neurons from a hand-designed set (e.g. the Gabor filters), it learns the filters. The number of neurons in the new model may be excessive and thus this model is dense
 and not sparse. It depends on the design of the structure (how many layers, how many neurons, i.e. filters, at each layer). It is still unclear at this stage how we can design a good structure for different images in different entropy regimes.&lt;/p&gt;
