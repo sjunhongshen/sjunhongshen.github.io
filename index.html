@@ -157,17 +157,18 @@
 </div>
 
     <h2 id="bio">Bio</h2>
-<p>I am a fourth-year Ph.D. student in the <a href="https://www.ml.cmu.edu/">Machine Learning Department</a> at CMU, advised by <a href="http://www.cs.cmu.edu/~atalwalk/">Ameet Talwalkar</a>. My work centers on developing efficient, multi-modal generative models that bridge the gap between research and real-world applications. I am particularly interested in enhancing LLMs&rsquo; abilities to model diverse data types and applying them to long-tail, low-resource domains such as science and business.</p>
+<p>I&rsquo;m a 4th-year Ph.D. student in the <a href="https://www.ml.cmu.edu/">Machine Learning Department</a> at CMU, advised by <a href="http://www.cs.cmu.edu/~atalwalk/">Ameet Talwalkar</a>. My work centers on developing efficient, multi-modal generative models that bridge the gap between research and real-world applications. I&rsquo;m also interested in enhancing LLMs&rsquo; abilities to model diverse data types and applying them to long-tail, low-resource domains such as science and business.</p>
 <p>I obtained my B.S. in Mathematics of Computation at UCLA, where I was fortunate to work with <a href="http://drlinyang.net">Lin Yang</a> on sample-efficient reinforcement learning. I have also worked on multi-agent RL and Theory of Mind, advised by <a href="http://www.stat.ucla.edu/~sczhu/">Song-Chun Zhu</a> and <a href="http://www.stat.ucla.edu/~ywu/">Ying Nian Wu</a>. My PhD is supported by JP Morgan AI PhD Fellowship.</p>
 <p> </p>
 <h2 id="news">News</h2>
 <ul>
-<li>June 2024: I joined FAIR at Meta as a research intern! Stay tuned for our work on efficient image/video tokenization!</li>
-<li>May 2024: my internship work at Microsoft Research, <a href="https://arxiv.org/abs/2402.05140">Tag-LLM</a>, is accepted by ICML 2024!</li>
-<li>Feb 2024: I joined <a href="https://scribehow.com/">Scribe</a> as a senior ML research engineer. Stay tuned for our work on LLM web agents!</li>
-<li>April 2023: our work on <a href="https://arxiv.org/abs/2302.05738">cross-modal fine-tuning</a> is accepted by ICML 2023 as oral presentation!</li>
-<li>October 2022: we are organizing the <a href="https://www.cs.cmu.edu/~automl-decathlon-22/">2022 AutoML Decathlon</a>. Check out and participate!</li>
-<li>September 2022: our work on <a href="https://arxiv.org/abs/2204.07554">NAS for diverse tasks</a> is accepted by NeurIPS 2022 and we&rsquo;ve released the <a href="https://github.com/sjunhongshen/DASH">code</a>.</li>
+<li>Nov 2024: Check out our newest work on web agents built on top of open-source LLMs! ScribeAgent <a href="https://arxiv.org/abs/2411.15004">paper</a>, <a href="https://github.com/colonylabs/ScribeAgent">code</a>, and <a href="https://arxiv.org/abs/2411.15004">blog post</a>.</li>
+<li>Sep 2024: Grateful to be awarded the J.P. Morgan AI PhD Fellowship (accepted) and the Bloomberg PhD Fellowship (declined)!</li>
+<li>Jun 2024: I joined FAIR at Meta as a research intern! Stay tuned for our work on adaptive image tokenization!</li>
+<li>May 2024: My internship work at Microsoft Research, <a href="https://arxiv.org/abs/2402.05140">Tag-LLM</a>, is accepted by ICML 2024!</li>
+<li>Apr 2023: Our work on <a href="https://arxiv.org/abs/2302.05738">cross-modal fine-tuning</a> is accepted by ICML 2023 as oral presentation!</li>
+<li>Oct 2022: We are organizing the <a href="https://www.cs.cmu.edu/~automl-decathlon-22/">2022 AutoML Decathlon</a>. Check out and participate!</li>
+<li>Sep 2022: Our work on <a href="https://arxiv.org/abs/2204.07554">NAS for diverse tasks</a> is accepted by NeurIPS 2022 and we&rsquo;ve released the <a href="https://github.com/sjunhongshen/DASH">code</a>.</li>
 </ul>
 <p> </p>
 
@@ -177,6 +178,69 @@
             For a full list of publications, see <a href="research">Research</a>.
         </div>
     
+    
+        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
+            my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
+            leading-tight justify-around" id="scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data"
+     itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
+         itemscope itemtype="http://schema.org/ImageObject">
+        <img alt="ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data paper illustration"
+             itemprop="url" src="img/agent.png"
+             class="w-full"/>
+    </div>
+    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        
+        <b><span itemprop="author">Junhong Shen</span></b>,
+        
+        <span itemprop="author">Atishay Jain, Zedian Xiao, Ishan Amlekar, Mouad Hadji, Aaron Podolny</span>,
+        
+        
+        <span itemprop="author">Ameet Talwalkar</span>
+        
+        <br>
+        <b>
+            <a href="https://arxiv.org/abs/2411.15004">
+                <span itemprop="name">ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data</span>
+            </a>
+        </b>
+        <meta itemprop="headline" content="ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data"/>
+        <br>
+        
+        <div>
+        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <i itemprop="name">Preprint</i></span>,
+        
+        <meta itemprop="datePublished" content="">.
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">LLM agents are rapidly improving to handle increasingly complex web-based tasks. Most of these agents rely on prompting general-purpose, proprietary models like GPT-4. We explore an alternative approach that fine-tunes open-source LLMs using production-scale workflow data collected from over 250 domains corresponding to 6 billion tokens. This simple yet effective approach shows substantial gains over prompting-based agents on existing benchmarks---ScribeAgent achieves SOTA direct generation performance on Mind2Web and improves the task success rate by 14.1% over the previous best text-only web agents on WebArena.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2411.15004">paper</a></span><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://github.com/colonylabs/ScribeAgent">code</a></span><span class="publication-link cursor-pointer
+                         bg-sky-600 dark:bg-sky-700
+                         hover:bg-sky-800
+                         dark:hover:bg-sky-500
+                         text-white
+                         dark:text-zinc-200
+                         dark:hover:text-gray-800
+                         hover:text-gray-900
+                         rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
+                        data-target="#open-modal-scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data">cite</button></span></div>
+    </div>
+</div>
+
     
         <div class="pub-wrapper w-full inline-flex flex-wrap items-center
             my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
@@ -740,6 +804,42 @@
 </div>
 
     
+    
+    
+<div id="#open-modal-scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data"
+     class="modal-window bg-tp-black invisible fixed top-0 left-0
+            right-0 bottom-0 transition-all pointer-events-none z-50">
+    <div class="absolute top-1/2 left-1/2 p-8 bg-white
+                dark:bg-neutral-700
+
+                max-w-full
+                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
+        <button id="#close-modal-scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data" title="Close" class="modal-close rounded-sm p-2">✕</button>
+        <h3>Cite <i>ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data</i></h3>
+        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
+                       bg-sky-600 dark:bg-sky-700 rounded-sm
+                       text-white
+                       dark:text-zinc-200
+                       dark:hover:text-gray-800
+                       hover:text-gray-900
+                       hover:bg-sky-800
+                       disabled:bg-neutral-500
+                       hover:disabled:text-white
+                       dark:hover:disabled:text-zinc-200
+                       dark:disabled:bg-neutral-500
+                       dark:hover:bg-sky-500" id="#copy-7cae9506">Copy to clipboard</button>
+        <pre class="bg-slate-100 dark:bg-slate-800"><code id="7cae9506">@misc{shen2024scribeagent,
+ title={ScribeAgent: Towards Specialized Web Agents Using Production-Scale Workflow Data},
+ author={Junhong Shen and Atishay Jain and Zedian Xiao and Ishan Amlekar and Mouad Hadji and Aaron Podolny and Ameet Talwalkar},
+ year={2024},
+ eprint={2411.15004},
+ archivePrefix={arXiv},
+ primaryClass={cs.CL},
+ }</code></pre>
+    </div>
+</div>
+
+
     
     
 <div id="#open-modal-ups-efficiently-building-foundation-models-for-pde-solving-via-cross-modal-adaptation"
