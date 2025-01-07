@@ -106,13 +106,13 @@
                  leading-loose md:px-0 px-2 z-0 Page(/research/_index.md)"
           role="main">
     <h1 id="resarch">Resarch</h1>
-<p>I&rsquo;m interested in machine learning and deep learning in general. My current research focuses mainly on the practical side of ML, i.e., developing effective ML tools and pipelines for diverse applications in real life. I approach this problem from the following aspects:</p>
+<p>I&rsquo;m interested in machine learning and deep learning in general. My current research focuses mainly on the practical side of ML, i.e., developing effective ML tools and pipelines for diverse applications in real life. I&rsquo;m particuarly intereted in enhancing LLM’s interaction with real-world applications by developing efficient and unified multi-modal models and building LLM agents capable of environment (e.g., browsers, command lines, IDEs) and user interactions. Besides, I also study:</p>
 <ul>
 <li>
-<p>Automated machine learning (AutoML): I study neural architecture search (NAS) to generate effective and task-specific neural network architectures for different downstream problems.</p>
+<p>Automated machine learning (AutoML): how do we use neural architecture search (NAS) to generate effective and task-specific neural network architectures for different downstream problems?</p>
 </li>
 <li>
-<p>Tranfer learning with pretrained models: how can we leverage existing large-scale pretrained models effectvely for solving problems that are not within the model&rsquo;s pretraining domain and modality?</p>
+<p>Tranfer learning to scientific domains: how can we leverage existing large-scale pretrained models effectvely for solving problems that are not within the model&rsquo;s pretraining domain and modality?</p>
 </li>
 </ul>
 <p> </p>
@@ -129,6 +129,61 @@
     
         <h2 id="publications">Publications</h2>
     
+    
+        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
+            my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
+            leading-tight justify-around" id="cat-content-adaptive-image-tokenization"
+     itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
+         itemscope itemtype="http://schema.org/ImageObject">
+        <img alt="CAT: Content-Adaptive Image Tokenization paper illustration"
+             itemprop="url" src="img/cat.png"
+             class="w-full"/>
+    </div>
+    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        
+        <b><span itemprop="author">Junhong Shen</span></b>,
+        
+        <span itemprop="author">Kushal Tirumala, Michihiro Yasunaga, Ishan Misra, Luke Zettlemoyer, Lili Yu</span>,
+        
+        
+        <span itemprop="author">Chunting Zhou</span>
+        
+        <br>
+        <b>
+            <a href="https://arxiv.org/abs/2501.03120">
+                <span itemprop="name">CAT: Content-Adaptive Image Tokenization</span>
+            </a>
+        </b>
+        <meta itemprop="headline" content="CAT: Content-Adaptive Image Tokenization"/>
+        <br>
+        
+        <div>
+        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <i itemprop="name">Preprint</i></span>,
+        
+        <meta itemprop="datePublished" content="">.
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">Most existing image tokenizers encode images into a fixed number of tokens or patches. We introduce Content-Adaptive Tokenizer (CAT), which dynamically adjusts representation capacity based on the image content and encodes simpler images into fewer tokens. We design a caption-based evaluation system that leverages LLMs to predict content complexity and determine the optimal compression ratio for a given image.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2501.03120">paper</a></span><span class="publication-link cursor-pointer
+                         bg-sky-600 dark:bg-sky-700
+                         hover:bg-sky-800
+                         dark:hover:bg-sky-500
+                         text-white
+                         dark:text-zinc-200
+                         dark:hover:text-gray-800
+                         hover:text-gray-900
+                         rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
+                        data-target="#open-modal-cat-content-adaptive-image-tokenization">cite</button></span></div>
+    </div>
+</div>
+
     
         <div class="pub-wrapper w-full inline-flex flex-wrap items-center
             my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
@@ -163,7 +218,7 @@
             <i itemprop="name">Preprint</i></span>,
         
         <meta itemprop="datePublished" content="">.
-        </div><div itemprop="description" class="pub-description text-sm my-1.5">LLM agents are rapidly improving to handle increasingly complex web-based tasks. Most of these agents rely on prompting general-purpose, proprietary models like GPT-4. We explore an alternative approach that fine-tunes open-source LLMs using production-scale workflow data collected from over 250 domains corresponding to 6 billion tokens. This simple yet effective approach shows substantial gains over prompting-based agents on existing benchmarks---ScribeAgent achieves SOTA direct generation performance on Mind2Web and improves the task success rate by 14.1% over the previous best text-only web agents on WebArena.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">Most LLM-based web agents rely on prompting general-purpose, proprietary models like GPT-4. We explore an alternative approach that fine-tunes open-source LLMs using production-scale workflow data. This simple yet effective approach achieves SOTA direct generation performance on Mind2Web and improves the task success rate by 7.3% over the previous best text-only web agents on WebArena.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
                          dark:bg-sky-700 rounded-sm p-1
                          dark:hover:bg-sky-500
                          hover:bg-sky-800 mr-1"><a class="border-none
@@ -189,6 +244,73 @@
                          hover:text-gray-900
                          rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
                         data-target="#open-modal-scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data">cite</button></span></div>
+    </div>
+</div>
+
+    
+        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
+            my-1.5 p-2.5 rounded bg-slate-100 dark:bg-slate-700 box-border
+            leading-tight justify-around" id="specialized-foundation-models-struggle-to-beat-supervised-baselines"
+     itemscope itemtype="http://schema.org/ScholarlyArticle">
+    <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
+         itemscope itemtype="http://schema.org/ImageObject">
+        <img alt="Specialized Foundation Models Struggle to Beat Supervised Baselines paper illustration"
+             itemprop="url" src="img/fm.png"
+             class="w-full"/>
+    </div>
+    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
+        
+        <span itemprop="author">Zongzhe Xu</span>,
+        
+        <span itemprop="author">Ritvik Gupta, Wenduo Cheng, Alexander Shen</span>,
+        
+        <b><span itemprop="author">Junhong Shen</span></b>,
+        
+        <span itemprop="author">Ameet Talwalkar</span>,
+        
+        
+        <span itemprop="author">Mikhail Khodak</span>
+        
+        <br>
+        <b>
+            <a href="https://arxiv.org/abs/2411.02796">
+                <span itemprop="name">Specialized Foundation Models Struggle to Beat Supervised Baselines</span>
+            </a>
+        </b>
+        <meta itemprop="headline" content="Specialized Foundation Models Struggle to Beat Supervised Baselines"/>
+        <br>
+        
+        <div>
+        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+            <i itemprop="name">NeurIPS FM4Science Workshop</i></span>,
+        
+        <meta itemprop="datePublished" content="2024">2024.
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">We look at three modalities--genomics, satellite imaging, and time series--with multiple recent FMs and compare them to a standard supervised learning workflow (model development, hyperparameter tuning, and training, all using only data from the target task). We find that it is consistently possible to train simple supervised models that match or even outperform the latest foundation models.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2411.02796">paper</a></span><span class="publication-link bg-sky-600
+                         dark:bg-sky-700 rounded-sm p-1
+                         dark:hover:bg-sky-500
+                         hover:bg-sky-800 mr-1"><a class="border-none
+                         text-white
+                         dark:text-zinc-200
+                         hover:text-gray-900
+                          hover:dark:text-gray-800"
+                   itemprop="mainEntityOfPage" href="https://github.com/ritvikgupta199/DASHA">code</a></span><span class="publication-link cursor-pointer
+                         bg-sky-600 dark:bg-sky-700
+                         hover:bg-sky-800
+                         dark:hover:bg-sky-500
+                         text-white
+                         dark:text-zinc-200
+                         dark:hover:text-gray-800
+                         hover:text-gray-900
+                         rounded-sm p-1 mr-1"><button class="open-modal text-inherit"
+                        data-target="#open-modal-specialized-foundation-models-struggle-to-beat-supervised-baselines">cite</button></span></div>
     </div>
 </div>
 
@@ -289,7 +411,7 @@
             <i itemprop="name">ICML</i></span>,
         
         <meta itemprop="datePublished" content="2024">2024.
-        </div><div itemprop="description" class="pub-description text-sm my-1.5">LLMs have demonstrated remarkable proficiency in understanding and generating natural language. However, their capabilities wane in highly specialized domains underrepresented in the pretraining corpus, such as physical and biomedical sciences. This work explores how to repurpose general LLMs into specialized task solvers through a novel, model-agnostic framework for learning custom input tags to condition the LLM.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
+        </div><div itemprop="description" class="pub-description text-sm my-1.5">LLMs demonstrate proficiency in understanding natural language. However, their capabilities wane in highly specialized domains underrepresented in the pretraining corpus, such as physical and biomedical sciences. This work explores how to repurpose general LLMs into specialized task solvers through learning custom input tags to condition the LLM.</div><div class="pub-link-wrapper mt-1.5 text-sm"><span class="publication-link bg-sky-600
                          dark:bg-sky-700 rounded-sm p-1
                          dark:hover:bg-sky-500
                          hover:bg-sky-800 mr-1"><a class="border-none
@@ -828,6 +950,42 @@
     
     
     
+<div id="#open-modal-cat-content-adaptive-image-tokenization"
+     class="modal-window bg-tp-black invisible fixed top-0 left-0
+            right-0 bottom-0 transition-all pointer-events-none z-50">
+    <div class="absolute top-1/2 left-1/2 p-8 bg-white
+                dark:bg-neutral-700
+
+                max-w-full
+                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
+        <button id="#close-modal-cat-content-adaptive-image-tokenization" title="Close" class="modal-close rounded-sm p-2">✕</button>
+        <h3>Cite <i>CAT: Content-Adaptive Image Tokenization</i></h3>
+        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
+                       bg-sky-600 dark:bg-sky-700 rounded-sm
+                       text-white
+                       dark:text-zinc-200
+                       dark:hover:text-gray-800
+                       hover:text-gray-900
+                       hover:bg-sky-800
+                       disabled:bg-neutral-500
+                       hover:disabled:text-white
+                       dark:hover:disabled:text-zinc-200
+                       dark:disabled:bg-neutral-500
+                       dark:hover:bg-sky-500" id="#copy-ac99cffe">Copy to clipboard</button>
+        <pre class="bg-slate-100 dark:bg-slate-800"><code id="ac99cffe">@misc{shen2024adaptivetokenizer,
+ title={CAT: Content-Adaptive Image Tokenization},
+ author={Junhong Shen and Kushal Tirumala and Michihiro Yasunaga and Ishan Misra and Luke Zettlemoyer and Lili Yu and Chunting Zhou},
+ year={2025},
+ eprint={2501.03120},
+ archivePrefix={arXiv},
+ primaryClass={cs.CV},
+ }</code></pre>
+    </div>
+</div>
+
+
+    
+    
 <div id="#open-modal-scribeagent-towards-specialized-web-agents-using-production-scale-workflow-data"
      class="modal-window bg-tp-black invisible fixed top-0 left-0
             right-0 bottom-0 transition-all pointer-events-none z-50">
@@ -857,6 +1015,42 @@
  eprint={2411.15004},
  archivePrefix={arXiv},
  primaryClass={cs.CL},
+ }</code></pre>
+    </div>
+</div>
+
+
+    
+    
+<div id="#open-modal-specialized-foundation-models-struggle-to-beat-supervised-baselines"
+     class="modal-window bg-tp-black invisible fixed top-0 left-0
+            right-0 bottom-0 transition-all pointer-events-none z-50">
+    <div class="absolute top-1/2 left-1/2 p-8 bg-white
+                dark:bg-neutral-700
+
+                max-w-full
+                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
+        <button id="#close-modal-specialized-foundation-models-struggle-to-beat-supervised-baselines" title="Close" class="modal-close rounded-sm p-2">✕</button>
+        <h3>Cite <i>Specialized Foundation Models Struggle to Beat Supervised Baselines</i></h3>
+        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
+                       bg-sky-600 dark:bg-sky-700 rounded-sm
+                       text-white
+                       dark:text-zinc-200
+                       dark:hover:text-gray-800
+                       hover:text-gray-900
+                       hover:bg-sky-800
+                       disabled:bg-neutral-500
+                       hover:disabled:text-white
+                       dark:hover:disabled:text-zinc-200
+                       dark:disabled:bg-neutral-500
+                       dark:hover:bg-sky-500" id="#copy-df739554">Copy to clipboard</button>
+        <pre class="bg-slate-100 dark:bg-slate-800"><code id="df739554">@misc{xu2024specializedfm,
+ title={Specialized Foundation Models Struggle to Beat Supervised Baselines},
+ author={Zongzhe Xu and Ritvik Gupta and Wenduo Cheng and Alexander Shen and Junhong Shen and Ameet Talwalkar and Mikhail Khodak},
+ year={2024},
+ eprint={2411.02796},
+ archivePrefix={arXiv},
+ primaryClass={cs.LG},
  }</code></pre>
     </div>
 </div>
@@ -1188,7 +1382,7 @@
     </li>
     <li class="ml-2 first:before:content-none before:content-['•']
                 text-neutral-800 dark:text-neutral-400 inline-block list-none">
-      <span class="ml-2">© Junhong Shen 2024</span>
+      <span class="ml-2">© Junhong Shen 2025</span>
     </li>
   </ul>
 </footer>
